@@ -1,0 +1,159 @@
+#field {
+    position: absolute;
+    height: 60px;
+    width: 220px;
+    margin-left: 10px;
+    margin-top: 20px;
+    border-radius: 15px;
+    background-color: azure;
+    text-align: right;
+    padding-right: 10px;
+    font-size: 42px;
+    padding-top: 9px;
+    overflow: hidden;
+}
+
+#calculator {
+    background-color: bisque;
+    height: 410px;
+    width: 250px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -125px;
+    margin-top: -175px;
+    border: 1px solid #840007;
+    border-radius: 15px;
+    user-select: none;
+    font-family: monospace;
+}
+
+.button {
+    background-color: #840007;
+    color: cornsilk;
+    text-align: center;
+    font-size: 42px;
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    border-radius: 13px;
+    border: 1px solid black;
+}
+
+.button:hover {
+    background-color: #9b0007;
+    cursor: pointer;
+}
+
+.button:active {
+    background: linear-gradient(0deg, #840007, #9b0007);
+}
+
+#button_plus {
+    margin-top: 290px;
+    margin-left: 190px;
+}
+
+#button_minus {
+    margin-top: 230px;
+    margin-left: 190px;
+}
+
+#button_multiply {
+    margin-top: 170px;
+    margin-left: 190px;
+}
+
+#button_divide {
+    margin-top: 110px;
+    margin-left: 190px;
+}
+
+#button_equally {
+    margin-top: 350px;
+    margin-left: 190px;
+    background-color: #5464af;
+}
+
+#button_equally:hover {
+    background-color: #6076cd;
+}
+
+#button_equally:active {
+    background: linear-gradient(0deg, #5464af, #6076cd);
+}
+
+#button_clear {
+    margin-top: 110px;
+    margin-left: 10px;
+}
+
+#button_delete {
+    font-size: 24px;
+    line-height: 50px;
+    margin-top: 110px;
+    margin-left: 70px;
+}
+
+#button_change {
+    font-size: 24px;
+    line-height: 50px;
+    margin-top: 110px;
+    margin-left: 130px;
+}
+
+#button_0 {
+    width: 110px;
+    margin-top: 350px;
+    margin-left: 10px;
+}
+
+#button_1 {
+    margin-left: 10px;
+    margin-top: 290px;
+}
+
+#button_2 {
+    margin-left: 70px;
+    margin-top: 290px;
+}
+
+#button_3 {
+    margin-top: 290px;
+    margin-left: 130px;
+}
+
+#button_4 {
+    margin-top: 230px;
+    margin-left: 10px;
+}
+
+#button_5 {
+    margin-left: 70px;
+    margin-top: 230px;
+}
+
+#button_6 {
+    margin-top: 230px;
+    margin-left: 130px;
+}
+
+#button_7 {
+    margin-top: 170px;
+    margin-left: 10px;
+}
+
+#button_8 {
+    margin-left: 70px;
+    margin-top: 170px;
+}
+
+#button_9 {
+    margin-top: 170px;
+    margin-left: 130px;
+}
+
+#button_dot {
+    margin-top: 350px;
+    margin-left: 130px;
+}
